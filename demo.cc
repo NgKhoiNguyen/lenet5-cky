@@ -67,7 +67,7 @@ int main() {
     // SGD opt(0.001);
     const int n_epoch = 5;
     const int batch_size = 128;
-    n_train = 1280;
+    
     // thay vi chay 5 epoch thi minh chay 1 epoch cho do ton Colab
     // ep batch = 1280 de chay nhanh hon
     for (int epoch = 0; epoch < n_epoch; epoch++) {
